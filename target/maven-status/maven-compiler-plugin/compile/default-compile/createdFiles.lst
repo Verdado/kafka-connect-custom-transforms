@@ -1,0 +1,2 @@
+com/rakuten/dps/kafka/connect/transforms/KeyToValue.class
+com/rakuten/dps/kafka/connect/transforms/logic/KeyToVal.class

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="3" failures="0" name="com.rakuten.dps.kafka.connect.transforms.KeyToValueTest" time="0.027" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Eclipse OpenJ9"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.boot.class.path" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/compressedrefs/jclSC180/vm.jar:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/se-service.jar:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/rt.jar:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/resources.jar:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/jsse.jar:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/charsets.jar:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/jce.jar"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.runtime.version" value="1.8.0_265-b01"/>
+    <property name="user.name" value="oliverbrylle.majaba"/>
+    <property name="java.compiler" value="j9jit29"/>
+    <property name="os.encoding" value="UTF-8"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="com.ibm.util.extralibs.properties" value=""/>
+    <property name="com.ibm.jcl.checkClassPath" value=""/>
+    <property name="user.language" value="en"/>
+    <property name="com.ibm.oti.vm.bootstrap.library.path" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/compressedrefs:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib"/>
+    <property name="sun.boot.library.path" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/compressedrefs:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib"/>
+    <property name="classworlds.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/bin/m2.conf"/>
+    <property name="jdk.extensions.version" value="8.0.265.0"/>
+    <property name="java.version" value="1.8.0_265"/>
+    <property name="user.timezone" value="Asia/Tokyo"/>
+    <property name="com.ibm.system.agent.path" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="com.ibm.zero.version" value="2"/>
+    <property name="java.endorsed.dirs" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/endorsed"/>
+    <property name="com.ibm.oti.vm.library.version" value="29"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="maven.conf" value="/usr/local/Cellar/maven/3.6.3_1/libexec/conf"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="user.country" value="US"/>
+    <property name="java.home" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre"/>
+    <property name="java.vm.info" value="JRE 1.8.0 Mac OS X amd64-64-Bit Compressed References 20200728_646 (JIT enabled, AOT enabled)
+OpenJ9   - 34cf4c075
+OMR      - 113e54219
+JCL      - c82ff0c20f based on jdk8u265-b01"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="path.separator" value=":"/>
+    <property name="java.vm.version" value="openj9-0.21.0"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="jdk.extensions.name" value="Extensions for OpenJDK for Eclipse OpenJ9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="ibm.signalhandling.sigint" value="true"/>
+    <property name="user.home" value="/Users/oliverbrylle.majaba"/>
+    <property name="com.ibm.cpu.endian" value="little"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="ibm.signalhandling.sigchain" value="true"/>
+    <property name="library.jansi.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/lib/jansi-native"/>
+    <property name="java.library.path" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/compressedrefs:/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib:/usr/lib"/>
+    <property name="java.vendor.url" value="http://www.eclipse.org/openj9"/>
+    <property name="java.vm.vendor" value="Eclipse OpenJ9"/>
+    <property name="java.fullversion" value="1.8.0_265-b01
+JRE 1.8.0 Mac OS X amd64-64-Bit Compressed References 20200728_646 (JIT enabled, AOT enabled)
+OpenJ9   - 34cf4c075
+OMR      - 113e54219
+JCL      - c82ff0c20f based on jdk8u265-b01"/>
+    <property name="maven.home" value="/usr/local/Cellar/maven/3.6.3_1/libexec"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.class.path" value="/usr/local/Cellar/maven/3.6.3_1/libexec/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.io.tmpdir" value="/var/folders/23/wt_4n8692pj63kyfsrf_98p88gl98k/T/"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/oliverbrylle.majaba/kafka-connect-custom-transforms"/>
+    <property name="ibm.system.encoding" value="UTF-8"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="ibm.signalhandling.rs" value="false"/>
+    <property name="java.ext.dirs" value="/Users/oliverbrylle.majaba/Library/Java/JavaVirtualMachines/adopt-openj9-1.8.0_265/Contents/Home/jre/lib/ext"/>
+    <property name="user.dir" value="/Users/oliverbrylle.majaba/kafka-connect-custom-transforms"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.name" value="Eclipse OpenJ9 VM"/>
+    <property name="com.ibm.oti.shared.enabled" value="false"/>
+    <property name="com.ibm.vm.bitmode" value="64"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="com.ibm.oti.configuration" value="scar"/>
+    <property name="java.specification.version" value="1.8"/>
+  </properties>
+  <testcase classname="com.rakuten.dps.kafka.connect.transforms.KeyToValueTest" name="topLevelStructRequired" time="0.026"/>
+  <testcase classname="com.rakuten.dps.kafka.connect.transforms.KeyToValueTest" name="SchemalessFromKeyToValue" time="0"/>
+  <testcase classname="com.rakuten.dps.kafka.connect.transforms.KeyToValueTest" name="withSchemaFromKeyToValue" time="0.001"/>
+</testsuite>
